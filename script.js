@@ -1,6 +1,7 @@
 /*global $*/
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-$(document).ready(function(){
-    alert("jquery loaded");
-});
+$("h3").css({border: "3px solid blue"});
+
+$(".wrapper").css({border: "3px solid red"});
+
+$("#clients").css({border: "3px solid yellow"});
