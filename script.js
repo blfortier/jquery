@@ -1,10 +1,7 @@
 /*global $*/
 
-/*
-$("#contact-methods").css({border: "2px solid red"})
-    .next().css({border: "2px solid green"})
-    .closest("section").css({border: "2px solid blue"}); 
-*/
+var tweet = "The big fight live: Ham vs Cheese!";
 
+$("#tweets div p").text(tweet);
 
 
