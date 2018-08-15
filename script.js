@@ -1,7 +1,19 @@
 /*global $*/
 
-var tweet = "The big fight live: Ham vs Cheese!";
+var wrapper = "<div class='wrapper'>";
+var button = $(".button");
+var wrapped = true;
 
-$("#tweets div p").text(tweet);
+button[0].onclick = function(){
+  if(wrapped) {
+      $("section").unwrap();
+      wrapped = false;
+      button.text("Wrap");
+  } else {
+      $("section").wrapAll(wrapper);
+      wrapped = true;
+      button.text("Unwrap");
+  }
+};
 
 
