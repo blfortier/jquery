@@ -5,11 +5,11 @@
    return false;
  };
  
- 
+/***************************************************/
 
-var myLis = $("#points-of-sale li");
 
-myLis.on("click", function(){
-    $(this).css({"background" : "pink"});
-    myLis.off("click");
+$("#lead-banner").dblclick(function(){
+  alert("you double clicked me"); 
+  $("#lead-banner").off("dblclick");
 });
+
