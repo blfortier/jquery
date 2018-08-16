@@ -7,9 +7,8 @@
  
 /***************************************************/
 
-
-$("#lead-banner").dblclick(function(){
-  alert("you double clicked me"); 
-  $("#lead-banner").off("dblclick");
+$(window).load(function(){
+   
+   
+    
 });
-
